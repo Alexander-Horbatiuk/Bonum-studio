@@ -1,0 +1,378 @@
+@font-face {
+    font-family: "CeraPro_500";
+    src: url(../fonts/CeraPro_500.woff);
+}
+
+@font-face {
+    font-family: "CeraPro_700";
+    src: url(../fonts/CeraPro_700.woff);
+}
+
+@font-face {
+    font-family: "CeraPro_400";
+    src: url(../fonts/CeraPro_400.woff);
+}
+
+body {
+    font-family: "CeraPro_700", sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1921px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.background__box {
+    background: url("../background_img/virna_oblojka_home.jpeg") no-repeat right top;
+    background-size: cover;
+    max-width: 1921px;
+    width: 100%;
+    height: 1055px;
+    position: relative;
+}
+
+.background__sub__box__one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 855px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.84);
+    backdrop-filter: blur(7px);
+    padding: 55px 95px 55px 255px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo__sub__box__one {
+    font-family: 'Gideon Roman', cursive;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 0.3em;
+}
+
+.brand__title  {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    font-size: 72px;
+    line-height: 100%;
+    align-items: start;
+    position: relative;
+    padding: 0 0 300px 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.brand__sub__title {
+    position: absolute;
+    bottom: 140px;
+    left: -33px;
+    max-width: 95px;
+    font-size: 14px;
+    line-height: 100%;
+    transform: rotate(-90deg);
+    text-align: end;
+}
+
+.social__network__box {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 4px;
+    width: 100%;
+    padding: 0;
+}
+
+.social__network__li {
+    list-style:none;
+}
+
+.social__network__li>.menu {
+    padding: 0 120px 0 0;
+}
+
+.social__network__languages {
+    margin-left: auto;
+}
+
+.languages {
+    text-decoration: none;
+    color: #000;
+    font-family: "CeraPro_400", sans-serif;
+}
+
+
+.background__sub__box__two {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 465px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 55px 0 0 145px;
+    box-sizing: border-box;
+}
+
+.title__sub__box__two {
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    margin-bottom: 380px;
+}
+
+.sub__title__rotate {
+    display: flex;
+    transform: rotate(-90deg);
+}
+
+.title__store {
+    font-family: "CeraPro_400", sans-serif;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: end;
+}
+
+.date__store {
+    padding: 0 0 0 30px;
+    font-family: "CeraPro_500", sans-serif;
+}
+
+/*_____________________*/
+.main {
+    font-family: "CeraPro_500", sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+    padding: 100px 0 0 255px ;
+    text-align: center;
+    background: #fff;
+}
+
+.main__title_one {
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.03em;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.main__sub__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 465px 0 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.main__title__text {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+}
+
+.main__title__text_two {
+    text-align: start;
+    max-width: 290px;
+    font-size: 14px;
+    line-height: 132.4%;
+    font-family: "CeraPro_400", sans-serif;
+}
+
+.main__title_two{
+    font-family: "CeraPro_700", sans-serif;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: start;
+    max-width: 405px;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+.main__sub__title_two {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    font-family: "CeraPro_400", sans-serif;
+    margin: 0;
+}
+
+.box__palette {
+    display: flex;
+    flex-direction: column;
+    padding: 0 256px 0 0;
+    box-sizing: border-box;
+}
+
+.one__box {
+    position: relative;
+}
+
+.palette__one {
+    margin-left: auto;
+    max-width: 280px;
+    width: 100%;
+    height: 70px;
+    background: #9A0034;
+}
+
+.sub__box__palette__text {
+    display: inline-block;
+    text-align: end;
+    transform: rotate(-90deg);
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    top: -73px;
+    right: -20px;
+}
+
+.palette__box {
+    padding: 0 420px 0 0;
+    box-sizing:border-box;
+}
+
+.sub__sub__box__palette  {
+    max-width: 130px;
+    min-height: 60px;
+    margin-left: auto;
+}
+
+.two__palette {
+    max-width: 130px;
+    min-height: 60px;
+    background: #D7969E;
+}
+
+.palette__text {
+    display: inline-block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
+    font-family: "CeraPro_500", sans-serif;
+}
+
+
+.three__sub__box {
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three__sub__sub__box {
+    display: flex;
+    justify-content: space-between;
+    width: 24%;
+}
+
+.palette__container {
+    max-width: 130px;
+    width: 100%;
+}
+
+.palette__three {
+    width: 100%;
+    min-height: 60px;
+    background: #898989;
+}
+
+.palette__four {
+    width: 100%;
+    min-height: 60px;
+    background: #E8D8D9;
+    margin-left: auto;
+}
+
+.palette__five {
+    width: 100%;
+    min-height: 60px;
+    background: #DEDCDC;
+    
+}
+
+.palette__six {
+    width: 100%;
+    min-height: 60px;
+    background: #B7B7B7;
+}
+
+.palette__seven {
+    width: 100%;
+    min-height: 60px;
+    background: #000;
+}
+
+
+.four__sub__box {
+    position: relative;
+}
+
+.four__sub__box>.main__title__text {
+    position: absolute;
+    bottom: 30px;
+    right: -20px; 
+    transform: rotate(-90deg); 
+}
+
+.four__sub__sub__box {
+    display: flex;
+    padding: 0 0 0 260px;
+    gap: 30px;
+}
+
+/* _____________________ */
+
+.footer { 
+    display: flex;
+    background: #fff;
+}
+
+.footer__background {
+    background: radial-gradient(circle, rgba(255,255,255,0.8015581232492998) 0%, rgba(255,255,255,0.8743872549019608) 49%, rgba(254,254,254,1) 97%);   
+    background-color: rgba(222, 171, 221, 0.76);
+    max-width: 945px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    position: relative;
+}
+
+.footer__title__bonum {
+    position: absolute;
+    top: 100px;
+    left: 279px;
+    margin: 0;
+}
+
+.footer__title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 72px;
+    line-height: 91px;
+    letter-spacing: 0.02em;
+    position: relative;
+}
+
+.footer__sub__title {
+    position: absolute;
+    bottom: 30%;
+    left: -40px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.09em;
+    transform: rotate(-90deg);
+    font-family: "CeraPro_500", sans-serif;
+}

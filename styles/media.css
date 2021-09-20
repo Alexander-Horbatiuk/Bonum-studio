@@ -1,0 +1,391 @@
+@media (max-width: 1440px) {
+    .background__box {
+        background: url(../background_img/background_header_1440.jpeg) no-repeat left top;
+        height: 802px;
+    }
+
+    .background__sub__box__one {
+        max-width: 732px;
+        padding: 30px 170px 63px 145px;
+    }
+
+    .background__sub__box__two {
+        max-width: 324px;
+    }
+    
+    .title__sub__box__two {
+        margin-bottom: 284px;
+    }
+
+    .main {
+        padding: 80px 0 0 135px;
+    }
+
+    .main__sub__title {
+        padding: 0 280px 0 0;
+    }
+    
+    .box__palette {
+        padding: 0 135px 0 0;
+    }
+
+    .three__sub__sub__box {
+        gap: 30px;
+    }
+
+    .footer__background__img {
+        max-width: 705px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .background__box {
+        background: url(../background_img/background_header_1440.jpeg) no-repeat left top;
+        height: 802px;
+    }
+
+    .background__sub__box__one {
+        max-width: 732px;
+        padding: 30px 170px 63px 145px;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+    .background__box {
+        background: url(../background_img/background_header_960.jpeg) no-repeat left top;
+        height: 530px;
+    }
+
+    .background__sub__box__one {
+        max-width: 465px;
+        padding: 30px 100px 63px 99px;
+    } 
+
+    .brand__title {
+        font-size: 48px;
+        padding: 0 0 100px 0;
+    }
+    .brand__sub__title {
+        bottom: 0;
+        font-family: "CeraPro_400", sans-serif;
+    }
+
+    .logo__sub__box__one {
+        font-size: 18px;
+    }
+
+    .social__network__box {
+        gap: 30px;
+    }
+
+    .social__network__li>.menu {
+        padding: 0 30px 0 0;
+
+    }
+
+
+    .background__sub__box__two {
+        max-width: 225px;
+        padding: 33px 0 0 73px;
+    }
+    
+    .title__sub__box__two {
+        margin-bottom: 175px;
+    }
+    .date__store {
+        padding: 0px 0 0 15px;
+    }
+
+    .main {
+        padding: 70px 0 0 95px;
+    }
+
+
+    .main__title_two {
+        max-width: 270px;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    
+    .main__sub__title_two {
+        font-size: 14px;
+    }
+
+    .palette__one {
+        max-width: 210px;
+        width: 100%;
+        height: 51px;
+    }
+
+    .four__sub__sub__box {
+        padding: 0 0 0 0px;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .palette__container {
+        max-width: 90px;
+    }
+
+    .three__sub__box {
+        padding: 0 30px;
+    }
+
+    .two__palette,
+    .palette__four,
+    .palette__five,
+    .palette__seven {
+        max-width: 90px;
+        width: 100%;
+        min-height: 50px;
+    }
+
+    .palette__three,
+    .palette__six {
+        max-width: 80px;
+        width: 100%;
+        min-height: 50px;
+    }
+
+    .palette__text,
+    .main__title__text {
+        font-size: 14px;
+    }
+    
+
+    .main__sub__title {
+        padding: 0 95px 0 0;
+        font-size: 13px;
+    }
+    
+    .box__palette {
+        padding: 0 95px 0 0;
+    }
+
+    .three__sub__sub__box {
+        gap: 30px;
+        width: 30%;
+    }
+
+    .footer__background__img {
+        max-width: 465px;
+    } 
+
+    .footer__title__bonum {
+        top: 55px;
+        left: 95px;
+    }
+
+    .footer__title {
+
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .footer__sub__title {
+        bottom: 13%;
+        font-size: 13px;
+        letter-spacing: 0.03em;
+    }
+}
+
+@media(max-width: 800px){
+
+    .background__box {
+        background: url(../background_img/background_header_768.jpeg) no-repeat left top;
+        height: 457px;
+    }
+
+    .background__sub__box__one {
+        max-width: 399px;
+        padding: 30px 90px 33px 39px;
+    } 
+
+    .background__sub__box__two {
+        max-width: 129px;
+        padding: 33px 0 0 45px;
+    }
+
+    .title__sub__box__two {
+        margin: 0;
+    }
+
+    .title__store {
+        display: flex;
+        font-size: 16px;
+        width: 150px;
+        position: absolute;
+        top: 213px;;
+        right: -40px;
+    }
+
+    .main {
+        padding: 50px 0 0 40px;
+    }
+
+    .main__sub__title {
+        font-size: 12px;
+        line-height: 132.4%;
+        padding: 0 45px 0 0;
+    }
+
+    .main__title_two {
+        max-width: 270px;
+        font-size: 32px; 
+    }
+
+    .palette__one {
+        max-width: 190px;
+    }
+
+    .two__palette, 
+    .palette__four, 
+    .palette__five, 
+    .palette__seven,
+    .palette__three,
+    .palette__six {
+        max-width: 70px;
+    }
+
+    .one__box {
+        margin-bottom: 75px;
+    }
+
+    .palette__box {
+        padding: 0;
+    }
+
+    .sub__sub__box__palette {
+        margin: 0 auto;
+        padding: 0 0 0 120px;
+    }
+    .four__sub__sub__box {
+        padding: 0 0 0 130px;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .footer__background__img {
+        max-width: 395px;
+    }
+
+    .footer__title {
+        font-size: 42px;
+    }
+}
+
+@media(max-width: 400px){
+
+    .background__box {
+        background: url(../background_img/background_header_360.jpeg) no-repeat left top;
+        height: 455px;
+    }
+
+    .brand__title {
+        display: none;
+    }
+    
+    .background__sub__box__one {
+        max-width: 156px;
+        padding: 0px 0px 33px 17px;
+        justify-content: flex-end;
+    } 
+
+    .background__sub__box__two {
+        max-width: 70px;
+        padding: 34px 0 0 9px;
+    }
+
+    .social__network__li>.menu {
+        padding: 0;
+    }
+
+    .social__network__box {
+        gap: 20px;
+    }
+
+    .logo__sub__box__one,
+    .social__network__languages {
+        display: none;
+    }
+
+    .title__sub__box__two {
+        font-size: 12px;
+    }
+
+    .title__store {
+        right: -52px;
+    }
+
+    .main {
+        padding: 50px 0 0 15px;
+        text-align: start;
+    }
+
+    .main__title_one {
+        font-size: 22px;
+    }
+
+    .main__title_two {
+        margin-bottom: 130px;
+    }
+
+    .main__title__text {
+        line-height: 60px;
+    }
+
+    .box__palette {
+        padding: 0 30px 0 0;
+    }
+
+    .sub__box__palette__text {
+        right: -40px;
+    }
+
+    .one__box {
+        margin-bottom: 50px;
+    }
+
+    .three__sub__box {
+        justify-content: start;
+    }
+
+    .four__sub__sub__box {
+        padding: 0 0 0 60px; 
+    }
+
+    .footer {
+        padding: 100px 0 100px 0;
+        position: relative;
+    }
+
+    .footer__background__img {
+        max-width: 190px;
+        transform: scale(-1, 1)
+
+    }
+
+    .footer__title__bonum {
+        top: 0;
+        left: 15px;
+    }
+
+    .footer__title {
+        position: absolute;
+        top: 26%;
+        left: 30%;
+    }
+
+    .footer__sub__title {
+        bottom: -97%;
+    }
+
+
+
+
+
+
+
+
+}
